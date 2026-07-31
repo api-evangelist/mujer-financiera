@@ -1,8 +1,26 @@
 aid: mujer-financiera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mujer-financiera.png
 name: Mujer Financiera
-description: Mujer Financiera is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Mujer Financiera is a Latin American financial-education platform founded in 2018 in Buenos Aires,
+  Argentina by Sabrina Castelli, focused on closing the gender gap in financial inclusion. It delivers
+  courses, packs, and multi-month programs (MF Platinum) on budgeting, saving, and investing, alongside a
+  mobile app for tracking personal finances, a supportive community, a newsletter, and corporate
+  financial-education services for companies. The platform reports hundreds of thousands of women served
+  across 12+ countries and is backed by 500 Global. It is a business-to-consumer fintech/edtech offering
+  and publishes no public API, developer portal, or SDKs; this profile captures its public identity and
+  domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/mujer-financiera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Financial Education
+- Fintech
+- Edtech
+- Personal Finance
+- Investing
+- Women
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mujer-financiera-domain-security.yml
 - type: Website
   url: https://mujer-financiera.com
+- type: Blog
+  url: https://www.mujerfinanciera.com/blog
+- type: Support
+  url: https://www.mujerfinanciera.com/preguntas-mas-frecuentes
+- type: SignUp
+  url: https://www.mujerfinanciera.com/iniciar-sesion
+- type: TermsOfService
+  url: https://www.mujerfinanciera.com/terminos-y-condiciones-web
+- type: PrivacyPolicy
+  url: https://www.mujerfinanciera.com/politica-de-privacidad
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
